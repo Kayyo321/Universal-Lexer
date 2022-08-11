@@ -1,0 +1,3 @@
+C:/Users/sully/CLionProjects/Universal_Lexer/cmake-build-debug/CMakeFiles/Universal_Lexer.dir
+C:/Users/sully/CLionProjects/Universal_Lexer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sully/CLionProjects/Universal_Lexer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

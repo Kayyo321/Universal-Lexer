@@ -33,7 +33,7 @@ while (curToken->type != NULL_VAL) {
 > 
 > Calling PrintToken, will print out the token in this format: (Example) "TOKEN: ["main", TYPE: IDENTIFIER, LN: 1]".
 
-Do not forget to call DeleteLexer, and DeleteToken, once you are done using both.
+Do not forget to call DeleteLexer, and DeleteToken, once you are done using either.
 
 A full implementation of this would be:
 

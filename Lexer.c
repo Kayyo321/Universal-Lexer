@@ -120,7 +120,7 @@ ReRun:
                 break;
 
             case '\n':
-                ++lexer->curLine;
+                curTok->lineNumber = ++lexer->curLine;
                 Eat(lexer);
                 goto ReRun;
 

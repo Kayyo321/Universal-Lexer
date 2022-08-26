@@ -149,6 +149,11 @@ ReRun:
                     curTok->data = AppChar(curTok->data, Peek(lexer));
                     Eat(lexer);
                 }
+                else if (Peek(lexer) == '-') {
+                    curTok->type = MINUS_MINUS;
+                    curTok->data = AppChar(curTok->data, Peek(lexer));
+                    Eat(lexer);
+                }
                 else if (Peek(lexer) == '>') {
                     curTok->type = R_ARROW;
                     curTok->data = AppChar(curTok->data, Peek(lexer));
